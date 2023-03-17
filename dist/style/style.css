@@ -1,0 +1,53 @@
+.centralizar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#conversor {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 5%;
+    background-color: #071400;
+    color: #c5c5c5;
+}
+
+.botoes{
+    margin-top: 10px;
+}
+
+button{
+    margin-right: 3px;
+    margin-left: 3px;
+    width: 75px;
+    height: 25px;
+    border: 1px solid #ffffff;
+    border-radius: 25%;
+    background-color: #bde0afa2;
+}
+#botao-inverter{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#inverter{
+    width: 35px;
+    height: 20px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBrGef8MGBXphoJvAA4P3doc3dsGrkM70vXg&usqp=CAU);
+}
+#valor-converssão{
+    margin-top: 20px;
+}
+#valor-convertido{
+    margin-top: 10px;
+    font-size: 15px;
+}
+input{
+    width: 90px;
+}
